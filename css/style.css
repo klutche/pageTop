@@ -22,11 +22,12 @@ article, aside, figure, footer, header, hgroup, nav, section { display:block; ma
  * contents
  ************************************************************/
 
-body { height:3600px; background:#000 url(../img/bg.jpg) no-repeat center top; }
+body { height:3600px; color:#fff; background:#333 url(../img/bg.jpg) no-repeat center top; }
+section { width: 600px; margin:0 auto; padding-top:100px; font-size:40px; font-weight:bold; text-align:center; }
 
 /************************************************************
  * page_top
  ************************************************************/
 
-.page_top { position:fixed; bottom:10px; right:10px; padding:10px 20px; color:#fff; font-size:20px; text-decoration:none; background:#222; }
+.page_top { position:fixed; bottom:10px; right:10px; padding:10px 20px; color:#fff; font-size:20px; text-decoration:none; background:#000; }
 .page_top:hover { background:#e74c3c; }
