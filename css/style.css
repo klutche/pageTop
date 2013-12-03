@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+/************************************************************
+ * reset css
+ ************************************************************/
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, 
+fieldset, input, textarea, p, blockquote, th, td { margin:0; padding:0; }
+html { overflow-y:scroll; }
+h1, h2, h3, h4, h5, h6, td, input { font-size:100%; font-weight:normal; }
+ol, ul { list-style:none; }
+fieldset, img { border:0; }
+caption, th { text-align:left; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal; }
+a img, li img { vertical-align:bottom; }
+
+/* html5 */
+article, aside, figure, footer, header, hgroup, nav, section { display:block; margin:0; padding:0; }
+
+/************************************************************
+ * contents
+ ************************************************************/
+
+body { height:3600px; background:#000 url(../img/bg.jpg) no-repeat center top; }
+
+/************************************************************
+ * page_top
+ ************************************************************/
+
+.page_top { position:fixed; bottom:10px; right:10px; padding:10px 20px; color:#fff; font-size:20px; text-decoration:none; background:#222; }
+.page_top:hover { background:#e74c3c; }
