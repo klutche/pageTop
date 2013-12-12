@@ -11,23 +11,24 @@
 
 ## HTML
 
-[html]
+`
 <a href="#top" class="page_top">PAGE TOP ▲</a>
-[/html]
+`
 
 今回はページ最上部まで戻すので body に id="top" を設定してあります。
 ボタンには class="page_top" を設定します。
 
-<h3>Javascript</h3>
+### Javascript
 
 jQuery 依存のスクリプトなので、まず jQuery を読み込んでおきます。
 
-[html]
+`
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-[/html]
+`
 
 その下に Javascript の処理を記載します。
-[html]
+
+`
 <script type="text/javascript">
 $(function() {
 	var pageTop = $('.page_top');
@@ -45,7 +46,7 @@ $(function() {
     });
 });
 </script>
-[/html]
+`
 
 「600」の部分が表示の条件となるスクロール量です。
 上から600px分スクロールしたらボタンを表示します。
@@ -74,6 +75,6 @@ $(function() {
 position:fixed; で画面下部に固定します。
 あとの見た目はお好みで･･･
 
-<h3>サンプルファイル一式</h3>
+### サンプルファイル一式
 
 <a href="https://github.com/klutche/pageTop" target="_blank" class="link">https://github.com/klutche/pageTop</a>
