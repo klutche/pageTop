@@ -9,7 +9,7 @@
 
 上椎葉ダムの奈落から天端に戻る事ができます。
 
-<h3>HTML</h3>
+## HTML
 
 [html]
 <a href="#top" class="page_top">PAGE TOP ▲</a>
@@ -53,9 +53,9 @@ $(function() {
 「500」がスクロール速度です。
 数字が小さいほどシャッと動きます。
 
-<h3>CSS</h3>
+## CSS
 
-[css]
+`
 .page_top {
 	position:fixed;
 	bottom:10px;
@@ -69,7 +69,7 @@ $(function() {
 .page_top:hover {
 	background:#e74c3c;
 }
-[/css]
+`
 
 position:fixed; で画面下部に固定します。
 あとの見た目はお好みで･･･
